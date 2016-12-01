@@ -10,6 +10,7 @@ setup(
     url='http://github.com/anthrotype/round3',
     license='Python Software Foundation License',
     classifiers=[
+        'License :: OSI Approved :: Python Software Foundation License',
     ],
     ext_modules=[
         Extension("round3", sources=['round3.c'])
