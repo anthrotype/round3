@@ -95,3 +95,7 @@ class Round3Test(unittest.TestCase):
 		self.assertAlmostEqual(round(-0.5e22, -22), 0.0)
 		self.assertAlmostEqual(round(0.5e22, -22), 0.0)
 		self.assertAlmostEqual(round(1.5e22, -22), 2e22)
+
+
+if __name__ == "__main__":
+	unittest.main()
