@@ -15,4 +15,5 @@ setup(
     ext_modules=[
         Extension("round3", sources=['round3.c'])
     ],
+    python_requires='==2.7',
 )
